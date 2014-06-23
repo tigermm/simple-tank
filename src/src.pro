@@ -8,8 +8,9 @@ QML_IMPORT_PATH =
 
 # The .cpp file which was generated for your project. Feel free to hack it.
 SOURCES += main.cpp \
-    ../gamefield.cpp \
-    ../tank.cpp
+    tank.cpp \
+    world.cpp \
+    unit.cpp
 
 # Installation path
 # target.path =
@@ -19,5 +20,6 @@ include(qtquick2applicationviewer/qtquick2applicationviewer.pri)
 qtcAddDeployment()
 
 HEADERS += \
-    ../tank.h \
-    ../gamefield.h
+    tank.h \
+    world.h \
+    unit.h
