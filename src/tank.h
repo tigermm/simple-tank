@@ -4,6 +4,11 @@
 #include <string>
 #include "unit.h"
 
+<<<<<<< HEAD
+=======
+const int STEP = 10;
+
+>>>>>>> eef8f258634f191777fe42096c36acdc03ab98ed
 namespace model {
 
 enum Orientation {
