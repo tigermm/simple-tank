@@ -24,33 +24,21 @@ void Tank::top() {
 
 void Tank::bottom() {
     if (m_orientation == BOTTOM)
-<<<<<<< HEAD
-        m_x--;
-=======
-        m_x++;
->>>>>>> eef8f258634f191777fe42096c36acdc03ab98ed
+        m_y--;
     else
         m_orientation == BOTTOM;
 }
 
 void Tank::left() {
     if (m_orientation == LEFT)
-<<<<<<< HEAD
-        m_y--;
-=======
-        m_x++;
->>>>>>> eef8f258634f191777fe42096c36acdc03ab98ed
+        m_x--;
     else
         m_orientation == LEFT;
 }
 
 void Tank::right() {
     if (m_orientation == RIGHT)
-<<<<<<< HEAD
-        m_y++;
-=======
         m_x++;
->>>>>>> eef8f258634f191777fe42096c36acdc03ab98ed
     else
         m_orientation == RIGHT;
 }
