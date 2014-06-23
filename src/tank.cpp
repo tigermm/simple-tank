@@ -17,7 +17,7 @@ void Tank::fire() {
 
 void Tank::top() {
     if (m_orientation == TOP)
-        m_x++;
+        m_y++;
     else
         m_orientation == TOP;
 }
